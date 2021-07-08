@@ -1,0 +1,1 @@
+﻿Get-Hotfix -computername HPMN-0007 | Select HotfixID, Description, InstalledOn | Sort-Object InstalledOn
